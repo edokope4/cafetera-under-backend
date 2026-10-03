@@ -1,0 +1,8 @@
+services:
+  notifier:
+    build: .
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - ./secrets/firebase.json:/run/secrets/firebase.json:ro
