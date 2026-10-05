@@ -17,7 +17,7 @@ Imagen: [edokope/cafetera-under-backend](https://hub.docker.com/r/edokope/cafete
 
 ## MQTT
 
-Broker de prueba: `test.mosquitto.org`, puerto 1883.
+Broker de prueba: `broker.hivemq.com`, puerto 1883.
 
 | Tópico | Mensaje | Qué hace este servicio |
 | --- | --- | --- |

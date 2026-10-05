@@ -41,7 +41,7 @@ Variables de `.env.example`:
 
 | Variable | Uso |
 | --- | --- |
-| `MQTT_HOST`, `MQTT_PORT` | Broker. Prueba: `test.mosquitto.org`, `1883`. |
+| `MQTT_HOST`, `MQTT_PORT` | Broker. Prueba: `broker.hivemq.com`, `1883`. |
 | `MQTT_USERNAME`, `MQTT_PASSWORD` | Opcionales. |
 | `MQTT_TLS` | `true` para TLS. |
 | `MQTT_TOPIC` | Tópico de estado que se escucha. |
